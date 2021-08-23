@@ -1,0 +1,8 @@
+imap:
+    connections:
+        example_connection:
+            mailbox: "{ssl0.ovh.net:993/imap/ssl}INBOX"
+            username: "stage-email-template@progresstn.com"
+            password: "stage-email-template"
+
+       
