@@ -18,10 +18,10 @@ class ImapController extends AbstractController
         ]);
     }
     /**
-     * @Route("/imap/fr", name="imap1")
+     * @Route("/imap/test", name="imap1")
      */
     public function imap()
-    {
+    {      //example_connetcion =>imap.yaml
         $isConnectable = $this->get('secit.imap')->testConnection('example_connection');
         var_dump($isConnectable);
     }
